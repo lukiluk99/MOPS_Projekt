@@ -8,14 +8,16 @@ namespace MOPS
     {
         
         public int size { get; set; }
+        public int comingTime { get; set; }
 
         public Package()
         {
         }
 
-        public Package(int size)
+        public Package(int size, int time)
         {
             this.size = size;
+            this.comingTime = time;
             Console.WriteLine("new Package! size: " + size );
         }
 

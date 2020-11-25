@@ -1,4 +1,5 @@
 ﻿using MOPS.Sources;
+using MOPS.Tools;
 using System;
 using System.Collections.Generic;
 
@@ -11,6 +12,9 @@ namespace MOPS
             List<CBR_Source> cbrSourcesList = new List<CBR_Source>();
             List<ONOFF_Source> ONOFFSourcesList = new List<ONOFF_Source>();
             List<Event> events = new List<Event>();
+            List<Package> queue = new List<Package>();
+            Server server = new Server();
+
 
             int numberOfSources;
             String command;
@@ -19,6 +23,7 @@ namespace MOPS
             int OFFtime;
             int numberOfPackages;
             int timeBetweenPackages;
+            int id;
 
             Console.WriteLine("Number of sources:");
             numberOfSources = int.Parse(Console.ReadLine());
@@ -50,15 +55,16 @@ namespace MOPS
                 case "2":
                     for (int i = 0; i < numberOfSources; i++)
                     {
+                        id = i ;
                         Console.WriteLine("peak rate: ");
                         peakRate = int.Parse(Console.ReadLine());
                         Console.WriteLine("Package size: ");
                         packageSize = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Off time: ");
+                        Console.WriteLine("time between packages: ");
                         timeBetweenPackages = int.Parse(Console.ReadLine());
                         Console.WriteLine("Number of package: ");
                         numberOfPackages = int.Parse(Console.ReadLine());
-                        CBR_Source source = new CBR_Source(peakRate, packageSize, timeBetweenPackages, numberOfPackages);
+                        CBR_Source source = new CBR_Source(id, peakRate, packageSize, timeBetweenPackages, numberOfPackages);
                         cbrSourcesList.Add(source);
                     }
                     break;
@@ -71,13 +77,33 @@ namespace MOPS
 
             while (true)
             {
+
+
+                Event e =  cbrSourcesList[0].createEvent("Coming", 10);
+                Statistic.increaseRecivedPackage(); 
+                events.Add(e);
+
+
+                if (server.bussy) // Serwer zajety
+                {
+                    if (true) //TODO: nie wiem gdzie zdeklarujemy maksymalny rozmiar kolejki false-- nie jest pełna
+                    {
+                        Statistic.increasePackageInQueue();
+                        queue.Add(cbrSourcesList[e.sourceID].createPackage(10)); // 10-czas w  którym została utworzona    
+                    }
+                    else
+                    {
+                        //Statistic.increaseLostPackage();
+                    }
+
+                }
+                else // serwer wolny
+                {
+                    //opoznienie na 0
+                    //+1 do licznika opoznien
+                    server.bussy = true;
                 
-
-
-
-
-
-
+                }
 
 
 

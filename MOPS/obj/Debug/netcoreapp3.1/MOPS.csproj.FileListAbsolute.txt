@@ -11,3 +11,16 @@ C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS\MO
 C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS\MOPS\MOPS\obj\Debug\netcoreapp3.1\MOPS.dll
 C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS\MOPS\MOPS\obj\Debug\netcoreapp3.1\MOPS.pdb
 C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS\MOPS\MOPS\obj\Debug\netcoreapp3.1\MOPS.genruntimeconfig.cache
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.csprojAssemblyReference.cache
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.AssemblyInfoInputs.cache
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.AssemblyInfo.cs
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.csproj.CoreCompileInputs.cache
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.dll
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.pdb
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.exe
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.deps.json
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.runtimeconfig.json
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.runtimeconfig.dev.json
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.dll
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\bin\Debug\netcoreapp3.1\MOPS.pdb
+C:\Users\lukil\OneDrive - Politechnika Warszawska\Semestr 5\MOPS\Projekt\MOPS_Projekt\MOPS\obj\Debug\netcoreapp3.1\MOPS.genruntimeconfig.cache

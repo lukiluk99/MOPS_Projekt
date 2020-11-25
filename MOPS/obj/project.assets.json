@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS\\MOPS\\MOPS\\MOPS.csproj",
+      "projectUniqueName": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS_Projekt\\MOPS\\MOPS.csproj",
       "projectName": "MOPS",
-      "projectPath": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS\\MOPS\\MOPS\\MOPS.csproj",
+      "projectPath": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS_Projekt\\MOPS\\MOPS.csproj",
       "packagesPath": "C:\\Users\\lukil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS\\MOPS\\MOPS\\obj\\",
+      "outputPath": "C:\\Users\\lukil\\OneDrive - Politechnika Warszawska\\Semestr 5\\MOPS\\Projekt\\MOPS_Projekt\\MOPS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lukil\\AppData\\Roaming\\NuGet\\NuGet.Config",

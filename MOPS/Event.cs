@@ -8,15 +8,18 @@ namespace MOPS
     {
         public String type { get; set; }
         public int time { get; set; }
-
+        public int sourceID { get; set; }
+       
 
         public Event()
         {}
 
-        public Event(String type, int time)
+        public Event(int id, String type, int time)
         {
+            this.sourceID = id;
             this.type = type;
             this.time = time;
+            
         }
 
 
