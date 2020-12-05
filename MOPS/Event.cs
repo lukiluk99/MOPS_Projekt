@@ -4,11 +4,11 @@ using System.Text;
 
 namespace MOPS
 {
-    class Event
+   public class Event
     {
         public String type { get; set; }
         public int time { get; set; }
-        public int sourceID { get; set; }
+        public int sourceID { get; set; } 
        
 
         public Event()
@@ -20,6 +20,13 @@ namespace MOPS
             this.type = type;
             this.time = time;
             
+        }
+
+        public Package createPackage( int size)
+        {
+            Package package = new Package(this.sourceID, size, time);
+
+            return package;
         }
 
 

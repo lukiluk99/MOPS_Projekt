@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MOPS.Sources
 {
-    class ONOFF_Source
+   public class ONOFF_Source
     {
         public int numberOfPackages { get; set; }
         public int packageSize { get; set; }
@@ -21,7 +21,7 @@ namespace MOPS.Sources
 
         public Package createPackage()
         {
-            Package package = new Package(packageSize, 10);
+            Package package = new Package(5, packageSize, 10);
 
 
             return package;

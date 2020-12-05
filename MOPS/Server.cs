@@ -1,23 +1,42 @@
-﻿using System;
+﻿using MOPS.Tools;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MOPS
 {
-    class Server
+   public class Server
     {
         public bool bussy { get; set; }
-        public int serviceTime { get; set; }
+        public int bitRate { get; set; }
 
         public Server()
         {
-            this.bussy = false;
-            serviceTime = 10;
+
         }
 
-        public Server(int time)
+        public Server(int bitRate)
         {
-            this.serviceTime = time;
+            this.bussy = false;
+            this.bitRate = bitRate;
+        }
+
+        public void run(Package package)
+        {
+            var time = package.size/bitRate;
+            Statistic.incrementTime(time);
+            Console.WriteLine("Server Working");
+
+        }
+
+        public void Bussy()
+        {
+            bussy = true;
+        }
+
+        public void Available()
+        {
+            bussy = false;
         }
 
        

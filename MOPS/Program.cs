@@ -2,6 +2,7 @@
 using MOPS.Tools;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MOPS
 {
@@ -13,7 +14,7 @@ namespace MOPS
             List<ONOFF_Source> ONOFFSourcesList = new List<ONOFF_Source>();
             List<Event> events = new List<Event>();
             List<Package> queue = new List<Package>();
-            Server server = new Server();
+            Server server = new Server(15);
 
 
             int numberOfSources;
@@ -22,9 +23,11 @@ namespace MOPS
             int packageSize;
             int OFFtime;
             int numberOfPackages;
-            int timeBetweenPackages;
             int id;
+            int queueSize;
 
+            Console.WriteLine("Queue size:");
+            queueSize = int.Parse(Console.ReadLine());
             Console.WriteLine("Number of sources:");
             numberOfSources = int.Parse(Console.ReadLine());
             Console.WriteLine("Select type of source:");
@@ -35,9 +38,7 @@ namespace MOPS
             switch (command)
             {
                 case "1":
-                    for (int i = 0; i < numberOfSources; i++)
-                    {
-                        Console.WriteLine("\n Source: " + (i + 1));
+                    
                         Console.WriteLine("peak rate: ");
                         peakRate = int.Parse(Console.ReadLine());
                         Console.WriteLine("Package size: ");
@@ -46,27 +47,31 @@ namespace MOPS
                         OFFtime = int.Parse(Console.ReadLine());
                         Console.WriteLine("Number of package: ");
                         numberOfPackages = int.Parse(Console.ReadLine());
- 
+                    for (int i = 0; i < numberOfSources; i++)
+                    {
                         ONOFF_Source source = new ONOFF_Source(peakRate, packageSize, OFFtime, numberOfPackages);
                         ONOFFSourcesList.Add(source);
                     }
                     break;
 
                 case "2":
-                    for (int i = 0; i < numberOfSources; i++)
-                    {
-                        id = i ;
+
+                        
                         Console.WriteLine("peak rate: ");
                         peakRate = int.Parse(Console.ReadLine());
                         Console.WriteLine("Package size: ");
                         packageSize = int.Parse(Console.ReadLine());
-                        Console.WriteLine("time between packages: ");
-                        timeBetweenPackages = int.Parse(Console.ReadLine());
                         Console.WriteLine("Number of package: ");
                         numberOfPackages = int.Parse(Console.ReadLine());
-                        CBR_Source source = new CBR_Source(id, peakRate, packageSize, timeBetweenPackages, numberOfPackages);
+                    Statistic.packagesInSimulation = numberOfSources * numberOfPackages;
+                    Statistic.packageSize = packageSize;
+                    for (int i = 0; i < numberOfSources; i++)
+                    {
+                        id = i;
+                        CBR_Source source = new CBR_Source(id, peakRate, packageSize, numberOfPackages);
                         cbrSourcesList.Add(source);
                     }
+                    Logs.SaveCBRInputParameters( new CBR_Source(1, peakRate, packageSize, numberOfPackages), numberOfSources);
                     break;
 
                 default:
@@ -75,25 +80,25 @@ namespace MOPS
             
             }
 
-            while (true)
+
+            for(int i = 0; i < Statistic.packagesInSimulation; i++)
             {
-
-
-                Event e =  cbrSourcesList[0].createEvent("Coming", 10);
-                Statistic.increaseRecivedPackage(); 
+                Event e =  cbrSourcesList[0].createEvent("Coming", Statistic.Time);
+                Statistic.incrementRecivedPackage(); 
                 events.Add(e);
-
 
                 if (server.bussy) // Serwer zajety
                 {
-                    if (true) //TODO: nie wiem gdzie zdeklarujemy maksymalny rozmiar kolejki false-- nie jest pełna
+                    if (queue.Count() < queueSize) 
                     {
-                        Statistic.increasePackageInQueue();
-                        queue.Add(cbrSourcesList[e.sourceID].createPackage(10)); // 10-czas w  którym została utworzona    
+                        queue.Add(events[0].createPackage( Statistic.packageSize));
+                        //queue.Add(cbrSourcesList[e.sourceID].createPackage(Statistic.Time)); 
+                        Statistic.incrementPackageInQueue();
+
                     }
                     else
                     {
-                        //Statistic.increaseLostPackage();
+                        Statistic.incrementLostPackage();
                     }
 
                 }
@@ -101,21 +106,13 @@ namespace MOPS
                 {
                     //opoznienie na 0
                     //+1 do licznika opoznien
-                    server.bussy = true;
-                
+                    server.Bussy();
+                    server.run(events[0].createPackage(Statistic.packageSize));
+                    Console.WriteLine("Actual time:" + Statistic.Time);
+                    Event ev = new Event(events[0].sourceID,"Finish", Statistic.Time);
+                    events.Add(ev);
+                    server.Available();
                 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                 /*
@@ -139,13 +136,6 @@ namespace MOPS
              
             
             }
-
-           
-
-
-            
-
-              
 
             
         }

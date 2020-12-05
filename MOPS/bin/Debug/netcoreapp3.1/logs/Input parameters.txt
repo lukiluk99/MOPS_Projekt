@@ -1,0 +1,70 @@
+Number od sources: 5
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 3
+ Number of packages: 4
+
+Number od sources: 3
+
+ [INPUT PARAMETERS]
+ Package size: 22
+ Time between packages: 2
+ Number of packages: 20
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 10
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+

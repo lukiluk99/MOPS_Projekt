@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MOPS.Sources
 {
-    class CBR_Source
+    public class CBR_Source
     {
         public int ID { get; set; }
         public int peakRate { get; set; }
@@ -15,20 +15,19 @@ namespace MOPS.Sources
         public CBR_Source()
         { }
 
-        public CBR_Source(int ID, int peakRate, int packageSize, int timeBetweenPackages, int numberOfPackages)
+        public CBR_Source(int ID, int peakRate, int packageSize, int numberOfPackages)
         {
             this.ID = ID;
             this.peakRate = peakRate;
             this.packageSize = packageSize;
-            this.timeBetweenPackages = timeBetweenPackages;
+            this.timeBetweenPackages = packageSize/peakRate;
             this.numberOfPackages = numberOfPackages;
         }
 
         public Package createPackage(int time)
         {
-            Package package = new Package(packageSize,time);
+            Package package = new Package(ID,packageSize,time);
             
-
             return package;
         }
 
