@@ -14,7 +14,7 @@ namespace MOPS.Tools
 
         public static int NumberOfPackageinQueue = 0;
 
-        public static int Time = 0;
+        public static float Time = 0;
 
         public static int packagesInSimulation = 0;
         public static int packageSize = 0;
@@ -35,7 +35,7 @@ namespace MOPS.Tools
             NumberOfPackageinQueue = NumberOfPackageinQueue + 1;
         }
 
-        public static void incrementTime(int deltaT)
+        public static void incrementTime(float deltaT)
         {
             Time = Time + deltaT;
         }

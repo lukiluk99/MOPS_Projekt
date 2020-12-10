@@ -68,3 +68,59 @@ Number od sources: 1
  Time between packages: 1
  Number of packages: 5
 
+Number od sources: 15
+
+ [INPUT PARAMETERS]
+ Package size: 14
+ Time between packages: 0
+ Number of packages: 3
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 15
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 12
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 12
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 12
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 5
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 12
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 1
+ Number of packages: 12
+

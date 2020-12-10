@@ -9,14 +9,14 @@ namespace MOPS
 
         public int sourceID { get; set; }
         public int size { get; set; }
-        public int comingTime { get; set; }
-        public int addToQueueTime { get; set; }
-        public int getFromQueueTime { get; set; }
+        public float comingTime { get; set; }
+        public float addToQueueTime { get; set; }
+        public float getFromQueueTime { get; set; }
         public Package()
         {
         }
 
-        public Package(int sourceID, int size, int time)
+        public Package(int sourceID, int size, float time)
         {
             this.size = size;
             this.comingTime = time;

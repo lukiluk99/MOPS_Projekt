@@ -24,14 +24,14 @@ namespace MOPS.Sources
             this.numberOfPackages = numberOfPackages;
         }
 
-        public Package createPackage(int time)
+        public Package createPackage(float time)
         {
             Package package = new Package(ID,packageSize,time);
             
             return package;
         }
 
-        public Event createEvent(String type, int time)
+        public Event createEvent(String type, float time)
         {
             Event e = new Event(ID, type, time);
 

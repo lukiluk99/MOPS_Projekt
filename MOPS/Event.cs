@@ -7,14 +7,14 @@ namespace MOPS
    public class Event
     {
         public String type { get; set; }
-        public int time { get; set; }
+        public float time { get; set; }
         public int sourceID { get; set; } 
        
 
         public Event()
         {}
 
-        public Event(int id, String type, int time)
+        public Event(int id, String type, float time)
         {
             this.sourceID = id;
             this.type = type;

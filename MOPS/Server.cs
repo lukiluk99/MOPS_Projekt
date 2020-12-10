@@ -23,7 +23,9 @@ namespace MOPS
 
         public void run(Package package)
         {
-            var time = package.size/bitRate;
+            float s = package.size;
+            float b = bitRate;
+            float time = s/b;
             Statistic.incrementTime(time);
             Console.WriteLine("Server Working");
 
