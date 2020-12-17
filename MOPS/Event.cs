@@ -22,9 +22,9 @@ namespace MOPS
             
         }
 
-        public Package createPackage( int size)
+        public Package createPackage(int id)
         {
-            Package package = new Package(this.sourceID, size, time);
+            Package package = new Package(id, this.sourceID, Parameters.packageSize, time);
 
             return package;
         }

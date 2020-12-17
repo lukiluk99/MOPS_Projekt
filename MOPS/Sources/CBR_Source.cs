@@ -26,7 +26,7 @@ namespace MOPS.Sources
 
         public Package createPackage(float time)
         {
-            Package package = new Package(ID,packageSize,time);
+            Package package = new Package(2,ID,packageSize,time);
             
             return package;
         }

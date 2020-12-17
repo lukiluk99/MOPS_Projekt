@@ -9,6 +9,8 @@ namespace MOPS
     {
         public bool bussy { get; set; }
         public int bitRate { get; set; }
+        private Package package { get; set; }
+        public float bussyTime { get; set; }
 
         public Server()
         {
@@ -19,28 +21,41 @@ namespace MOPS
         {
             this.bussy = false;
             this.bitRate = bitRate;
+            this.package = null;
+            this.bussyTime = 0;
         }
 
         public void run(Package package)
         {
-            float s = package.size;
-            float b = bitRate;
-            float time = s/b;
-            Statistic.incrementTime(time);
+            Statistic.incrementTime(Parameters.serverTime);
             Console.WriteLine("Server Working");
 
         }
 
-        public void Bussy()
+        public void setBussy()
         {
             bussy = true;
         }
 
-        public void Available()
+        public void setAvailable()
         {
             bussy = false;
         }
 
+        public void setBussyTime(float time)
+        {
+            this.bussyTime = time;
+        }
+
+        public void addPackageToServer(Package package)
+        {
+            this.package = package;
+        }
+
+        public Package getPackage()
+        {
+            return package;
+        }
        
 
 

@@ -21,7 +21,7 @@ namespace MOPS.Sources
 
         public Package createPackage()
         {
-            Package package = new Package(5, packageSize, 10);
+            Package package = new Package(2, 5, packageSize, 10);
 
 
             return package;

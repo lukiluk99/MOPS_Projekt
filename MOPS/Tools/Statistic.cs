@@ -17,6 +17,7 @@ namespace MOPS.Tools
         public static float Time = 0;
 
         public static int packagesInSimulation = 0;
+
         public static int packageSize = 0;
 
         // -------------------------------------Inceremnt--------------------------------
@@ -72,8 +73,13 @@ namespace MOPS.Tools
             NumberOfLostPackage =0;
         }
 
+        //-------------------------------------Print----------------------------------------
 
+        public static void printStatistic()
+        {
+            Console.WriteLine($"[STATISTIC]\nNumberOfRecivedPackage: {NumberOfRecivedPackage}\nNumberOfLostPackage: {NumberOfLostPackage}\n\n");
 
+        }
 
 
     }

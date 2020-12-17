@@ -124,3 +124,4724 @@ Number od sources: 1
  Time between packages: 1
  Number of packages: 12
 
+Number od sources: 10
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 1
+ Number of packages: 10
+
+Number od sources: 1
+
+ [INPUT PARAMETERS]
+ Package size: 1
+ Time between packages: 1
+ Number of packages: 1
+
+Number od sources: 3
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 5
+
+Number od sources: 5
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 1
+ Number of packages: 4
+
+Number od sources: 3
+
+ [INPUT PARAMETERS]
+ Package size: 8
+ Time between packages: 0
+ Number of packages: 6
+
+Number od sources: 2
+
+ [INPUT PARAMETERS]
+ Package size: 9
+ Time between packages: 0
+ Number of packages: 8
+
+Number od sources: 2
+
+ [INPUT PARAMETERS]
+ Package size: 8
+ Time between packages: 0
+ Number of packages: 7
+
+Number od sources: 3
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 9
+ Time between packages: 0
+ Number of packages: 8
+ Peak rate: 10
+
+
+Server Bitrate: 10
+
+
+Number od sources: 2
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 10
+
+
+Server Bitrate: 10
+
+
+Number od sources: 5
+
+ Queue size: 8 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 10
+
+
+Server Bitrate: 10
+
+
+Number od sources: 2
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 0
+ Number of packages: 13
+ Peak rate: 10
+
+
+Server Bitrate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 4
+ Time between packages: 0
+ Number of packages: 3
+ Peak rate: 5
+
+
+Server Bitrate: 2
+
+
+Number od sources: 4
+
+ Queue size: 4 
+
+ [INPUT PARAMETERS]
+ Package size: 9
+ Time between packages: 0
+ Number of packages: 8
+ Peak rate: 10
+
+
+Server Bitrate: 5
+
+
+Number od sources: 8
+
+ Queue size: 9 
+
+ [INPUT PARAMETERS]
+ Package size: 12
+ Time between packages: 0
+ Number of packages: 13
+ Peak rate: 11
+
+
+Server Bitrate: 10
+
+
+Number od sources: 5
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 6
+ Time between packages: 0
+ Number of packages: 7
+ Peak rate: 5
+
+
+Server Bitrate: 5
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 10
+
+
+Server Bitrate: 5
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 10
+
+
+Server Bitrate: 5
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 10
+
+
+Server Bitrate: 5
+
+
+Number od sources: 5
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 10
+
+
+Server Bitrate: 10
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 9
+ Time between packages: 0
+ Number of packages: 8
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 5 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 0,9Type: Coming
+Source ID: 2 Time: 0,9Type: Coming
+Source ID: 2 Time: 1,8Type: Coming
+Source ID: 1 Time: 1,8Type: Finish
+Source ID: 1 Time: 1,8Type: Coming
+Source ID: 1 Time: 2,6999998Type: Coming
+Source ID: 2 Time: 2,6999998Type: Coming
+Source ID: 2 Time: 3,6Type: Finish
+Source ID: 2 Time: 3,6Type: Coming
+Source ID: 1 Time: 3,6Type: Coming
+Source ID: 1 Time: 4,5Type: Coming
+Source ID: 2 Time: 4,5Type: Coming
+Source ID: 1 Time: 5,3999996Type: Finish
+Source ID: 1 Time: 5,4Type: Coming
+Source ID: 2 Time: 5,4Type: Coming
+Source ID: 2 Time: 6,3Type: Coming
+Source ID: 1 Time: 6,3Type: Coming
+Source ID: 2 Time: 7,2Type: Finish
+Source ID: 1 Time: 9Type: Finish
+Source ID: 2 Time: 10,8Type: Finish
+Source ID: 1 Time: 12,6Type: Finish
+Source ID: 2 Time: 14,400001Type: Finish
+Source ID: 1 Time: 16,2Type: Finish
+Source ID: 2 Time: 18Type: Finish
+Source ID: 1 Time: 19,8Type: Finish
+Source ID: 2 Time: 21,599998Type: Finish
+Source ID: 1 Time: 23,399998Type: Finish
+Source ID: 2 Time: 25,199997Type: Finish
+Source ID: 1 Time: 26,999996Type: Finish
+Source ID: 2 Time: 28,799995Type: Finish
+
+Number od sources: 2
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 19
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 2 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 3Type: Coming
+Source ID: 2 Time: 3Type: Coming
+Source ID: 2 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Finish
+Source ID: 2 Time: 5Type: Coming
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 2 Time: 6Type: Coming
+Source ID: 1 Time: 7Type: Coming
+Source ID: 2 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 2 Time: 8Type: Finish
+Source ID: 2 Time: 8Type: Coming
+Source ID: 1 Time: 9Type: Coming
+Source ID: 2 Time: 9Type: Coming
+Source ID: 1 Time: 10Type: Coming
+Source ID: 2 Time: 10Type: Coming
+Source ID: 1 Time: 10Type: Finish
+Source ID: 2 Time: 11Type: Coming
+Source ID: 1 Time: 11Type: Coming
+Source ID: 2 Time: 12Type: Finish
+Source ID: 2 Time: 12Type: Coming
+Source ID: 1 Time: 12Type: Coming
+Source ID: 1 Time: 13Type: Coming
+Source ID: 2 Time: 13Type: Coming
+Source ID: 2 Time: 14Type: Coming
+Source ID: 1 Time: 14Type: Finish
+Source ID: 1 Time: 14Type: Coming
+Source ID: 1 Time: 15Type: Coming
+Source ID: 2 Time: 15Type: Coming
+Source ID: 2 Time: 16Type: Finish
+Source ID: 1 Time: 16Type: Coming
+Source ID: 2 Time: 16Type: Coming
+Source ID: 2 Time: 17Type: Coming
+Source ID: 1 Time: 17Type: Coming
+Source ID: 2 Time: 18Type: Finish
+Source ID: 2 Time: 18Type: Coming
+Source ID: 1 Time: 18Type: Coming
+Source ID: 1 Time: 20Type: Finish
+Source ID: 2 Time: 22Type: Finish
+Source ID: 1 Time: 24Type: Finish
+Source ID: 2 Time: 26Type: Finish
+Source ID: 1 Time: 28Type: Finish
+Source ID: 1 Time: 30Type: Finish
+Source ID: 2 Time: 32Type: Finish
+Source ID: 2 Time: 34Type: Finish
+Source ID: 1 Time: 36Type: Finish
+Source ID: 1 Time: 38Type: Finish
+Source ID: 2 Time: 40Type: Finish
+Source ID: 1 Time: 42Type: Finish
+Source ID: 2 Time: 44Type: Finish
+Source ID: 2 Time: 46Type: Finish
+Source ID: 1 Time: 48Type: Finish
+Source ID: 2 Time: 50Type: Finish
+Source ID: 1 Time: 52Type: Finish
+Source ID: 1 Time: 54Type: Finish
+Source ID: 2 Time: 56Type: Finish
+Source ID: 2 Time: 58Type: Finish
+Source ID: 1 Time: 60Type: Finish
+Source ID: 2 Time: 62Type: Finish
+Source ID: 1 Time: 64Type: Finish
+Source ID: 2 Time: 66Type: Finish
+Source ID: 1 Time: 68Type: Finish
+Source ID: 2 Time: 70Type: Finish
+Source ID: 1 Time: 72Type: Finish
+Source ID: 1 Time: 74Type: Finish
+Source ID: 2 Time: 76Type: Finish
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Number od sources: 1
+
+ Queue size: 4 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 15
+ Peak rate: 20
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 2
+ Server time: 2,5 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 3
+ Time between packages: 0
+ Number of packages: 15
+ Peak rate: 20
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 0,6 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 30
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 15
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 10Type: Coming
+Source ID: 1 Time: 11Type: Coming
+Source ID: 1 Time: 12Type: Coming
+Source ID: 1 Time: 13Type: Coming
+Source ID: 1 Time: 14Type: Coming
+Source ID: 1 Time: 15Type: Coming
+Source ID: 1 Time: 16Type: Coming
+Source ID: 1 Time: 17Type: Coming
+Source ID: 1 Time: 18Type: Coming
+Source ID: 1 Time: 19Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 20
+ In simulation: 20 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 3Type: Finish
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 5Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 7Type: Finish
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 9Type: Finish
+Source ID: 1 Time: 10Type: Coming
+Source ID: 1 Time: 11Type: Finish
+Source ID: 1 Time: 11Type: Coming
+Source ID: 1 Time: 12Type: Coming
+Source ID: 1 Time: 13Type: Finish
+Source ID: 1 Time: 13Type: Coming
+Source ID: 1 Time: 14Type: Coming
+Source ID: 1 Time: 15Type: Coming
+Source ID: 1 Time: 15Type: Finish
+Source ID: 1 Time: 16Type: Coming
+Source ID: 1 Time: 17Type: Coming
+Source ID: 1 Time: 17Type: Finish
+Source ID: 1 Time: 18Type: Coming
+Source ID: 1 Time: 19Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 20
+ In simulation: 20 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1,1Type: Finish
+Source ID: 1 Time: 1,1Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 3,3000002Type: Coming
+Source ID: 1 Time: 3,3000002Type: Finish
+Source ID: 1 Time: 4,4Type: Coming
+Source ID: 1 Time: 5,5Type: Coming
+Source ID: 1 Time: 5,5Type: Finish
+Source ID: 1 Time: 6,6Type: Coming
+Source ID: 1 Time: 7,7Type: Coming
+Source ID: 1 Time: 7,7Type: Finish
+Source ID: 1 Time: 8,8Type: Coming
+Source ID: 1 Time: 9,900001Type: Coming
+Source ID: 1 Time: 9,900001Type: Finish
+Source ID: 1 Time: 11,000001Type: Coming
+Source ID: 1 Time: 12,100001Type: Finish
+Source ID: 1 Time: 12,100001Type: Coming
+Source ID: 1 Time: 13,200002Type: Coming
+Source ID: 1 Time: 14,300002Type: Finish
+Source ID: 1 Time: 14,300002Type: Coming
+Source ID: 1 Time: 15,4000025Type: Coming
+Source ID: 1 Time: 16,500002Type: Coming
+Source ID: 1 Time: 16,500002Type: Finish
+Source ID: 1 Time: 17,600002Type: Coming
+Source ID: 1 Time: 18,700003Type: Coming
+Source ID: 1 Time: 18,700003Type: Finish
+Source ID: 1 Time: 19,800003Type: Coming
+Source ID: 1 Time: 20,900003Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 20
+ In simulation: 20 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 11
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 10
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1,1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1,1Type: Coming
+Source ID: 1 Time: 1,1Type: Finish
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,2Type: Finish
+Source ID: 1 Time: 3,3000002Type: Coming
+Source ID: 1 Time: 3,3000002Type: Finish
+Source ID: 1 Time: 4,4Type: Coming
+Source ID: 1 Time: 4,4Type: Finish
+Source ID: 1 Time: 5,5Type: Finish
+Source ID: 1 Time: 5,5Type: Coming
+Source ID: 1 Time: 6,6Type: Finish
+Source ID: 1 Time: 6,6Type: Coming
+Source ID: 1 Time: 7,7Type: Finish
+Source ID: 1 Time: 7,7Type: Coming
+Source ID: 1 Time: 8,8Type: Coming
+Source ID: 1 Time: 8,8Type: Finish
+Source ID: 1 Time: 9,900001Type: Finish
+Source ID: 1 Time: 9,900001Type: Coming
+Source ID: 1 Time: 11,000001Type: Coming
+Source ID: 1 Time: 11,000001Type: Finish
+Source ID: 1 Time: 12,100001Type: Coming
+Source ID: 1 Time: 12,100001Type: Finish
+Source ID: 1 Time: 13,200002Type: Finish
+Source ID: 1 Time: 13,200002Type: Coming
+Source ID: 1 Time: 14,300002Type: Finish
+Source ID: 1 Time: 14,300002Type: Coming
+Source ID: 1 Time: 15,4000025Type: Coming
+Source ID: 1 Time: 15,4000025Type: Finish
+Source ID: 1 Time: 16,500002Type: Finish
+Source ID: 1 Time: 16,500002Type: Coming
+Source ID: 1 Time: 17,600002Type: Finish
+Source ID: 1 Time: 17,600002Type: Coming
+Source ID: 1 Time: 18,700003Type: Finish
+Source ID: 1 Time: 18,700003Type: Coming
+Source ID: 1 Time: 19,800003Type: Finish
+Source ID: 1 Time: 19,800003Type: Coming
+Source ID: 1 Time: 20,900003Type: Coming
+Source ID: 1 Time: 20,900003Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 20
+ In simulation: 20 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 30
+ Peak rate: 100
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 24
+ Received: 30
+ In simulation: 30 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 40
+ Peak rate: 50
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 100
+ Server time: 0,1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,2Type: Finish
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,4Type: Finish
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,6Type: Finish
+Source ID: 1 Time: 0,8Type: Coming
+Source ID: 1 Time: 0,8Type: Finish
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 1,2Type: Coming
+Source ID: 1 Time: 1,2Type: Finish
+Source ID: 1 Time: 1,4000001Type: Coming
+Source ID: 1 Time: 1,4000001Type: Finish
+Source ID: 1 Time: 1,6000001Type: Coming
+Source ID: 1 Time: 1,6000001Type: Finish
+Source ID: 1 Time: 1,8000002Type: Finish
+Source ID: 1 Time: 1,8000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,2000003Type: Coming
+Source ID: 1 Time: 2,2000003Type: Finish
+Source ID: 1 Time: 2,4000003Type: Coming
+Source ID: 1 Time: 2,4000003Type: Finish
+Source ID: 1 Time: 2,6000004Type: Coming
+Source ID: 1 Time: 2,6000004Type: Finish
+Source ID: 1 Time: 2,8000004Type: Finish
+Source ID: 1 Time: 2,8000004Type: Coming
+Source ID: 1 Time: 3,0000005Type: Coming
+Source ID: 1 Time: 3,0000005Type: Finish
+Source ID: 1 Time: 3,2000005Type: Coming
+Source ID: 1 Time: 3,2000005Type: Finish
+Source ID: 1 Time: 3,4000006Type: Finish
+Source ID: 1 Time: 3,4000006Type: Coming
+Source ID: 1 Time: 3,6000006Type: Coming
+Source ID: 1 Time: 3,6000006Type: Finish
+Source ID: 1 Time: 3,8000007Type: Finish
+Source ID: 1 Time: 3,8000007Type: Coming
+Source ID: 1 Time: 4,0000005Type: Finish
+Source ID: 1 Time: 4,0000005Type: Coming
+Source ID: 1 Time: 4,2000003Type: Finish
+Source ID: 1 Time: 4,2000003Type: Coming
+Source ID: 1 Time: 4,4Type: Finish
+Source ID: 1 Time: 4,4Type: Coming
+Source ID: 1 Time: 4,6Type: Finish
+Source ID: 1 Time: 4,6Type: Coming
+Source ID: 1 Time: 4,7999997Type: Finish
+Source ID: 1 Time: 4,7999997Type: Coming
+Source ID: 1 Time: 4,9999995Type: Finish
+Source ID: 1 Time: 4,9999995Type: Coming
+Source ID: 1 Time: 5,1999993Type: Coming
+Source ID: 1 Time: 5,1999993Type: Finish
+Source ID: 1 Time: 5,399999Type: Finish
+Source ID: 1 Time: 5,399999Type: Coming
+Source ID: 1 Time: 5,599999Type: Finish
+Source ID: 1 Time: 5,599999Type: Coming
+Source ID: 1 Time: 5,7999988Type: Finish
+Source ID: 1 Time: 5,7999988Type: Coming
+Source ID: 1 Time: 5,9999986Type: Finish
+Source ID: 1 Time: 5,9999986Type: Coming
+Source ID: 1 Time: 6,1999984Type: Finish
+Source ID: 1 Time: 6,1999984Type: Coming
+Source ID: 1 Time: 6,399998Type: Finish
+Source ID: 1 Time: 6,399998Type: Coming
+Source ID: 1 Time: 6,599998Type: Finish
+Source ID: 1 Time: 6,599998Type: Coming
+Source ID: 1 Time: 6,799998Type: Coming
+Source ID: 1 Time: 6,799998Type: Finish
+Source ID: 1 Time: 6,9999976Type: Finish
+Source ID: 1 Time: 6,9999976Type: Coming
+Source ID: 1 Time: 7,1999974Type: Finish
+Source ID: 1 Time: 7,1999974Type: Coming
+Source ID: 1 Time: 7,399997Type: Finish
+Source ID: 1 Time: 7,399997Type: Coming
+Source ID: 1 Time: 7,599997Type: Finish
+Source ID: 1 Time: 7,599997Type: Coming
+Source ID: 1 Time: 7,799997Type: Coming
+Source ID: 1 Time: 7,799997Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 40
+ In simulation: 40 
+
+
+Number od sources: 1
+
+ Queue size: 3 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 15
+ Peak rate: 50
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,8Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1,2Type: Coming
+Source ID: 1 Time: 1,4000001Type: Coming
+Source ID: 1 Time: 1,6000001Type: Coming
+Source ID: 1 Time: 1,8000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,2000003Type: Coming
+Source ID: 1 Time: 2,4000003Type: Coming
+Source ID: 1 Time: 2,6000004Type: Coming
+Source ID: 1 Time: 2,8000004Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 9
+ Received: 15
+ In simulation: 15 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 50
+ Peak rate: 1000
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 50
+ Server time: 0,2 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,01Type: Coming
+Source ID: 1 Time: 0,02Type: Coming
+Source ID: 1 Time: 0,03Type: Coming
+Source ID: 1 Time: 0,04Type: Coming
+Source ID: 1 Time: 0,049999997Type: Coming
+Source ID: 1 Time: 0,059999995Type: Coming
+Source ID: 1 Time: 0,06999999Type: Coming
+Source ID: 1 Time: 0,07999999Type: Coming
+Source ID: 1 Time: 0,08999999Type: Coming
+Source ID: 1 Time: 0,09999999Type: Coming
+Source ID: 1 Time: 0,109999985Type: Coming
+Source ID: 1 Time: 0,11999998Type: Coming
+Source ID: 1 Time: 0,12999998Type: Coming
+Source ID: 1 Time: 0,13999999Type: Coming
+Source ID: 1 Time: 0,14999999Type: Coming
+Source ID: 1 Time: 0,16Type: Coming
+Source ID: 1 Time: 0,17Type: Coming
+Source ID: 1 Time: 0,18Type: Coming
+Source ID: 1 Time: 0,19000001Type: Coming
+Source ID: 1 Time: 0,20000002Type: Coming
+Source ID: 1 Time: 0,20000002Type: Finish
+Source ID: 1 Time: 0,21000002Type: Coming
+Source ID: 1 Time: 0,22000003Type: Coming
+Source ID: 1 Time: 0,23000003Type: Coming
+Source ID: 1 Time: 0,24000004Type: Coming
+Source ID: 1 Time: 0,25000003Type: Coming
+Source ID: 1 Time: 0,26000002Type: Coming
+Source ID: 1 Time: 0,27Type: Coming
+Source ID: 1 Time: 0,28Type: Coming
+Source ID: 1 Time: 0,29Type: Coming
+Source ID: 1 Time: 0,29999998Type: Coming
+Source ID: 1 Time: 0,30999997Type: Coming
+Source ID: 1 Time: 0,31999996Type: Coming
+Source ID: 1 Time: 0,32999995Type: Coming
+Source ID: 1 Time: 0,33999994Type: Coming
+Source ID: 1 Time: 0,34999993Type: Coming
+Source ID: 1 Time: 0,35999992Type: Coming
+Source ID: 1 Time: 0,36999992Type: Coming
+Source ID: 1 Time: 0,3799999Type: Coming
+Source ID: 1 Time: 0,3899999Type: Coming
+Source ID: 1 Time: 0,3999999Type: Coming
+Source ID: 1 Time: 0,40999988Type: Coming
+Source ID: 1 Time: 0,40999988Type: Finish
+Source ID: 1 Time: 0,41999987Type: Coming
+Source ID: 1 Time: 0,42999986Type: Coming
+Source ID: 1 Time: 0,43999985Type: Coming
+Source ID: 1 Time: 0,44999984Type: Coming
+Source ID: 1 Time: 0,45999983Type: Coming
+Source ID: 1 Time: 0,46999982Type: Coming
+Source ID: 1 Time: 0,4799998Type: Coming
+Source ID: 1 Time: 0,4899998Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 40
+ Received: 50
+ In simulation: 50 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 40
+ Peak rate: 100
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 1
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 2
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 3
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 4
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 5
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 6
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 1
+ Received: 7
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 2
+ Received: 8
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 9
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 4
+ Received: 10
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 4
+ Received: 11
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 4
+ Received: 12
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 5
+ Received: 13
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 6
+ Received: 14
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 7
+ Received: 15
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 8
+ Received: 16
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 9
+ Received: 17
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 10
+ Received: 18
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 11
+ Received: 19
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 12
+ Received: 20
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 13
+ Received: 21
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 13
+ Received: 22
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 13
+ Received: 23
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 14
+ Received: 24
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 15
+ Received: 25
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 16
+ Received: 26
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 17
+ Received: 27
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 18
+ Received: 28
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 19
+ Received: 29
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 20
+ Received: 30
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 21
+ Received: 31
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 22
+ Received: 32
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 23
+ Received: 33
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 23
+ Received: 34
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 23
+ Received: 35
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 24
+ Received: 36
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 25
+ Received: 37
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 26
+ Received: 38
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 27
+ Received: 39
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 1 Time: 2,9999993Type: Coming
+Source ID: 1 Time: 3,0999992Type: Coming
+Source ID: 1 Time: 3,0999992Type: Finish
+Source ID: 1 Time: 3,199999Type: Coming
+Source ID: 1 Time: 3,299999Type: Coming
+Source ID: 1 Time: 3,399999Type: Coming
+Source ID: 1 Time: 3,4999988Type: Coming
+Source ID: 1 Time: 3,5999987Type: Coming
+Source ID: 1 Time: 3,6999986Type: Coming
+Source ID: 1 Time: 3,7999985Type: Coming
+Source ID: 1 Time: 3,8999984Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 28
+ Received: 40
+ In simulation: 40 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 30
+ Peak rate: 50
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,5Type: Finish
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Finish
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,5999997Type: Finish
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 14
+ Received: 30
+ In simulation: 30 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,5 
+
+
+Number od sources: 2
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 30
+ Peak rate: 100
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 2 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 2 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 2 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 2 Time: 0,4Type: Coming
+Source ID: 2 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 2 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 2 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 2 Time: 0,8000001Type: Coming
+Source ID: 2 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 2 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 2 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,2000002Type: Coming
+Source ID: 2 Time: 1,2000002Type: Coming
+Source ID: 2 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,3000002Type: Coming
+Source ID: 1 Time: 1,4000002Type: Coming
+Source ID: 2 Time: 1,4000002Type: Coming
+Source ID: 2 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,5000002Type: Coming
+Source ID: 1 Time: 1,6000003Type: Coming
+Source ID: 2 Time: 1,6000003Type: Coming
+Source ID: 2 Time: 1,7000003Type: Coming
+Source ID: 1 Time: 1,7000003Type: Coming
+Source ID: 2 Time: 1,8000003Type: Coming
+Source ID: 1 Time: 1,8000003Type: Coming
+Source ID: 2 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 1,9000003Type: Coming
+Source ID: 1 Time: 2,0000002Type: Finish
+Source ID: 2 Time: 2,0000002Type: Coming
+Source ID: 1 Time: 2,0000002Type: Coming
+Source ID: 2 Time: 2,1000001Type: Coming
+Source ID: 1 Time: 2,1000001Type: Coming
+Source ID: 2 Time: 2,2Type: Coming
+Source ID: 1 Time: 2,2Type: Coming
+Source ID: 2 Time: 2,3Type: Coming
+Source ID: 1 Time: 2,3Type: Coming
+Source ID: 2 Time: 2,3999999Type: Coming
+Source ID: 1 Time: 2,3999999Type: Coming
+Source ID: 2 Time: 2,4999998Type: Coming
+Source ID: 1 Time: 2,4999998Type: Coming
+Source ID: 2 Time: 2,5999997Type: Coming
+Source ID: 1 Time: 2,5999997Type: Coming
+Source ID: 2 Time: 2,6999996Type: Coming
+Source ID: 1 Time: 2,6999996Type: Coming
+Source ID: 2 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,7999995Type: Coming
+Source ID: 1 Time: 2,8999994Type: Coming
+Source ID: 2 Time: 2,8999994Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 50
+ Received: 60
+ In simulation: 60 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 10
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 12
+ Peak rate: 100
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 4 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 5 Time: 0Type: Coming
+Source ID: 10 Time: 0Type: Coming
+Source ID: 7 Time: 0Type: Coming
+Source ID: 6 Time: 0Type: Coming
+Source ID: 8 Time: 0Type: Coming
+Source ID: 9 Time: 0Type: Coming
+Source ID: 3 Time: 0Type: Coming
+Source ID: 1 Time: 0,1Type: Coming
+Source ID: 2 Time: 0,1Type: Coming
+Source ID: 7 Time: 0,1Type: Coming
+Source ID: 9 Time: 0,1Type: Coming
+Source ID: 10 Time: 0,1Type: Coming
+Source ID: 8 Time: 0,1Type: Coming
+Source ID: 5 Time: 0,1Type: Coming
+Source ID: 3 Time: 0,1Type: Coming
+Source ID: 6 Time: 0,1Type: Coming
+Source ID: 4 Time: 0,1Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 8 Time: 0,2Type: Coming
+Source ID: 5 Time: 0,2Type: Coming
+Source ID: 2 Time: 0,2Type: Coming
+Source ID: 3 Time: 0,2Type: Coming
+Source ID: 4 Time: 0,2Type: Coming
+Source ID: 6 Time: 0,2Type: Coming
+Source ID: 10 Time: 0,2Type: Coming
+Source ID: 9 Time: 0,2Type: Coming
+Source ID: 7 Time: 0,2Type: Coming
+Source ID: 9 Time: 0,3Type: Coming
+Source ID: 8 Time: 0,3Type: Coming
+Source ID: 5 Time: 0,3Type: Coming
+Source ID: 7 Time: 0,3Type: Coming
+Source ID: 2 Time: 0,3Type: Coming
+Source ID: 10 Time: 0,3Type: Coming
+Source ID: 6 Time: 0,3Type: Coming
+Source ID: 3 Time: 0,3Type: Coming
+Source ID: 4 Time: 0,3Type: Coming
+Source ID: 1 Time: 0,3Type: Coming
+Source ID: 8 Time: 0,4Type: Coming
+Source ID: 3 Time: 0,4Type: Coming
+Source ID: 9 Time: 0,4Type: Coming
+Source ID: 4 Time: 0,4Type: Coming
+Source ID: 2 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 7 Time: 0,4Type: Coming
+Source ID: 10 Time: 0,4Type: Coming
+Source ID: 5 Time: 0,4Type: Coming
+Source ID: 6 Time: 0,4Type: Coming
+Source ID: 7 Time: 0,5Type: Coming
+Source ID: 4 Time: 0,5Type: Coming
+Source ID: 5 Time: 0,5Type: Coming
+Source ID: 8 Time: 0,5Type: Coming
+Source ID: 3 Time: 0,5Type: Coming
+Source ID: 6 Time: 0,5Type: Coming
+Source ID: 9 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 10 Time: 0,5Type: Coming
+Source ID: 2 Time: 0,5Type: Coming
+Source ID: 5 Time: 0,6Type: Coming
+Source ID: 10 Time: 0,6Type: Coming
+Source ID: 4 Time: 0,6Type: Coming
+Source ID: 3 Time: 0,6Type: Coming
+Source ID: 2 Time: 0,6Type: Coming
+Source ID: 8 Time: 0,6Type: Coming
+Source ID: 6 Time: 0,6Type: Coming
+Source ID: 7 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 9 Time: 0,6Type: Coming
+Source ID: 5 Time: 0,70000005Type: Coming
+Source ID: 6 Time: 0,70000005Type: Coming
+Source ID: 4 Time: 0,70000005Type: Coming
+Source ID: 7 Time: 0,70000005Type: Coming
+Source ID: 1 Time: 0,70000005Type: Coming
+Source ID: 8 Time: 0,70000005Type: Coming
+Source ID: 3 Time: 0,70000005Type: Coming
+Source ID: 9 Time: 0,70000005Type: Coming
+Source ID: 2 Time: 0,70000005Type: Coming
+Source ID: 10 Time: 0,70000005Type: Coming
+Source ID: 5 Time: 0,8000001Type: Coming
+Source ID: 8 Time: 0,8000001Type: Coming
+Source ID: 3 Time: 0,8000001Type: Coming
+Source ID: 10 Time: 0,8000001Type: Coming
+Source ID: 4 Time: 0,8000001Type: Coming
+Source ID: 1 Time: 0,8000001Type: Coming
+Source ID: 6 Time: 0,8000001Type: Coming
+Source ID: 9 Time: 0,8000001Type: Coming
+Source ID: 7 Time: 0,8000001Type: Coming
+Source ID: 2 Time: 0,8000001Type: Coming
+Source ID: 10 Time: 0,9000001Type: Coming
+Source ID: 1 Time: 0,9000001Type: Coming
+Source ID: 7 Time: 0,9000001Type: Coming
+Source ID: 4 Time: 0,9000001Type: Coming
+Source ID: 5 Time: 0,9000001Type: Coming
+Source ID: 3 Time: 0,9000001Type: Coming
+Source ID: 6 Time: 0,9000001Type: Coming
+Source ID: 2 Time: 0,9000001Type: Coming
+Source ID: 9 Time: 0,9000001Type: Coming
+Source ID: 8 Time: 0,9000001Type: Coming
+Source ID: 8 Time: 1,0000001Type: Coming
+Source ID: 7 Time: 1,0000001Type: Coming
+Source ID: 4 Time: 1,0000001Type: Coming
+Source ID: 2 Time: 1,0000001Type: Coming
+Source ID: 9 Time: 1,0000001Type: Coming
+Source ID: 3 Time: 1,0000001Type: Coming
+Source ID: 6 Time: 1,0000001Type: Coming
+Source ID: 10 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Coming
+Source ID: 5 Time: 1,0000001Type: Coming
+Source ID: 1 Time: 1,0000001Type: Finish
+Source ID: 10 Time: 1,1000001Type: Coming
+Source ID: 5 Time: 1,1000001Type: Coming
+Source ID: 8 Time: 1,1000001Type: Coming
+Source ID: 7 Time: 1,1000001Type: Coming
+Source ID: 6 Time: 1,1000001Type: Coming
+Source ID: 4 Time: 1,1000001Type: Coming
+Source ID: 3 Time: 1,1000001Type: Coming
+Source ID: 2 Time: 1,1000001Type: Coming
+Source ID: 1 Time: 1,1000001Type: Coming
+Source ID: 9 Time: 1,1000001Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 115
+ Received: 120
+ In simulation: 120 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 0
+ In simulation: 0 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 4
+ In simulation: 4 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 100
+ Server time: 0,02 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 4
+ In simulation: 4 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 100
+ Server time: 0,02 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 2
+ In simulation: 2 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 2
+ In simulation: 2 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 30
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 30
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 5Type: Finish
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 7Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 9Type: Finish
+Source ID: 1 Time: 10Type: Finish
+Source ID: 1 Time: 10Type: Coming
+Source ID: 1 Time: 11Type: Coming
+Source ID: 1 Time: 11Type: Finish
+Source ID: 1 Time: 12Type: Coming
+Source ID: 1 Time: 12Type: Finish
+Source ID: 1 Time: 13Type: Finish
+Source ID: 1 Time: 13Type: Coming
+Source ID: 1 Time: 14Type: Finish
+Source ID: 1 Time: 14Type: Coming
+Source ID: 1 Time: 15Type: Finish
+Source ID: 1 Time: 15Type: Coming
+Source ID: 1 Time: 16Type: Coming
+Source ID: 1 Time: 16Type: Finish
+Source ID: 1 Time: 17Type: Finish
+Source ID: 1 Time: 17Type: Coming
+Source ID: 1 Time: 18Type: Finish
+Source ID: 1 Time: 18Type: Coming
+Source ID: 1 Time: 19Type: Finish
+Source ID: 1 Time: 19Type: Coming
+Source ID: 1 Time: 20Type: Finish
+Source ID: 1 Time: 20Type: Coming
+Source ID: 1 Time: 21Type: Finish
+Source ID: 1 Time: 21Type: Coming
+Source ID: 1 Time: 22Type: Finish
+Source ID: 1 Time: 22Type: Coming
+Source ID: 1 Time: 23Type: Finish
+Source ID: 1 Time: 23Type: Coming
+Source ID: 1 Time: 24Type: Coming
+Source ID: 1 Time: 24Type: Finish
+Source ID: 1 Time: 25Type: Finish
+Source ID: 1 Time: 25Type: Coming
+Source ID: 1 Time: 26Type: Finish
+Source ID: 1 Time: 26Type: Coming
+Source ID: 1 Time: 27Type: Finish
+Source ID: 1 Time: 27Type: Coming
+Source ID: 1 Time: 28Type: Finish
+Source ID: 1 Time: 28Type: Coming
+Source ID: 1 Time: 29Type: Coming
+Source ID: 1 Time: 29Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 30
+ In simulation: 30 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,2 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 20
+ Peak rate: 2
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 3Type: Finish
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 5Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 7Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 9Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 2 Time: 3Type: Coming
+Source ID: 1 Time: 3Type: Finish
+Source ID: 2 Time: 4Type: Finish
+Source ID: 2 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 5Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 2 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 2 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 2 Time: 7Type: Coming
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 7Type: Finish
+Source ID: 1 Time: 8Type: Finish
+Source ID: 2 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 9Type: Finish
+Source ID: 2 Time: 9Type: Coming
+Source ID: 2 Time: 10Type: Finish
+Source ID: 2 Time: 11Type: Finish
+Source ID: 1 Time: 12Type: Finish
+Source ID: 2 Time: 13Type: Finish
+Source ID: 2 Time: 14Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 8
+ Received: 20
+ In simulation: 20 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 2 Time: 0,5Type: Coming
+Source ID: 1 Time: 0,5Type: Finish
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Finish
+Source ID: 1 Time: 1,5Type: Coming
+Source ID: 2 Time: 1,5Type: Coming
+Source ID: 1 Time: 1,5Type: Finish
+Source ID: 2 Time: 2Type: Finish
+Source ID: 2 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 3Type: Finish
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Finish
+Source ID: 2 Time: 6Type: Finish
+Source ID: 2 Time: 7Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,5 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 2
+ In simulation: 2 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 2
+ In simulation: 2 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 2
+ Time between packages: 0
+ Number of packages: 2
+ Peak rate: 2
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 1
+ Time between packages: 0
+ Number of packages: 1
+ Peak rate: 1
+
+
+Source ID: 1 Time: 0Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 1
+ In simulation: 1 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 11Type: Finish
+Source ID: 1 Time: 13Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 11Type: Finish
+Source ID: 1 Time: 13Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 3
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 2 Time: 3Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 2 Time: 5Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 2 Time: 6Type: Coming
+Source ID: 2 Time: 7Type: Coming
+Source ID: 1 Time: 7Type: Coming
+Source ID: 2 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+Source ID: 2 Time: 9Type: Coming
+Source ID: 1 Time: 11Type: Finish
+Source ID: 2 Time: 13Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 13
+ Received: 20
+ In simulation: 20 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 2 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Coming
+Source ID: 2 Time: 3Type: Coming
+Source ID: 1 Time: 3Type: Finish
+Source ID: 1 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Finish
+Source ID: 1 Time: 5Type: Finish
+Source ID: 1 Time: 5Type: Coming
+Source ID: 2 Time: 5Type: Coming
+Source ID: 2 Time: 6Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 7Type: Finish
+Source ID: 1 Time: 7Type: Coming
+Source ID: 2 Time: 7Type: Coming
+Source ID: 1 Time: 8Type: Coming
+Source ID: 2 Time: 8Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Coming
+Source ID: 1 Time: 9Type: Finish
+Source ID: 2 Time: 9Type: Coming
+Source ID: 2 Time: 10Type: Finish
+Source ID: 1 Time: 11Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 8
+ Received: 20
+ In simulation: 20 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 50
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,8Type: Coming
+Source ID: 1 Time: 1,8Type: Finish
+Source ID: 1 Time: 2,8Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 2
+ Received: 5
+ In simulation: 5 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 50
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 50
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 1 Time: 1,5Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 3Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 1
+ Received: 6
+ In simulation: 5 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 6 
+
+ [INPUT PARAMETERS]
+ Package size: 20
+ Time between packages: 0
+ Number of packages: 16
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 1 Time: 2,2Type: Finish
+Source ID: 1 Time: 4Type: Finish
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 6Type: Finish
+Source ID: 1 Time: 6Type: Coming
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 8Type: Coming
+Source ID: 1 Time: 10Type: Finish
+Source ID: 1 Time: 10Type: Coming
+Source ID: 1 Time: 12Type: Finish
+Source ID: 1 Time: 12Type: Coming
+Source ID: 1 Time: 14Type: Finish
+Source ID: 1 Time: 14Type: Coming
+Source ID: 1 Time: 16Type: Finish
+Source ID: 1 Time: 16Type: Coming
+Source ID: 1 Time: 18Type: Finish
+Source ID: 1 Time: 18Type: Coming
+Source ID: 1 Time: 20Type: Finish
+Source ID: 1 Time: 20Type: Coming
+Source ID: 1 Time: 22Type: Coming
+Source ID: 1 Time: 22Type: Finish
+Source ID: 1 Time: 24Type: Coming
+Source ID: 1 Time: 24Type: Finish
+Source ID: 1 Time: 26Type: Coming
+Source ID: 1 Time: 26Type: Finish
+Source ID: 1 Time: 28Type: Coming
+Source ID: 1 Time: 28Type: Finish
+Source ID: 1 Time: 30Type: Finish
+Source ID: 1 Time: 30Type: Coming
+
+[STATISTIC PARAMETERS]
+Lost: 0
+ Received: 17
+ In simulation: 16 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 100
+ Server time: 0,2 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 50
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,2Type: Coming
+Source ID: 1 Time: 0,4Type: Coming
+Source ID: 1 Time: 0,6Type: Coming
+Source ID: 1 Time: 0,8Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1,2Type: Coming
+Source ID: 1 Time: 1,4000001Type: Coming
+Source ID: 1 Time: 1,6000001Type: Coming
+Source ID: 1 Time: 1,8000002Type: Coming
+Source ID: 1 Time: 3,8000002Type: Finish
+Source ID: 1 Time: 5,8Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 7
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 2 
+
+
