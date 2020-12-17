@@ -20,7 +20,21 @@ namespace MOPS.Tools
 
         public static int packageSize = 0;
 
-        
+        private static List<float> averageTimeinQueueList = new List<float>();
+
+        public static float averageTimeinQueue = 0;
+
+        private static Dictionary<int,float> averagePackageInQueueList = new Dictionary<int,float>();
+
+        public static float averagePackageInQueue = 0;
+
+        public static float simulationTime = 0;
+
+        public static float serverLoad = 0;
+
+        public static float serverLoadTime = 0;
+
+
 
         // -------------------------------------Inceremnt--------------------------------
         public static void incrementRecivedPackage()
@@ -75,6 +89,65 @@ namespace MOPS.Tools
             NumberOfLostPackage =0;
         }
 
+        public static void addAverageTimeinQueue(float element)
+        {
+            averageTimeinQueueList.Add(element);
+        }
+
+        public static void addAveragePackageInQueue(int s, float time)
+        {
+            if (averagePackageInQueueList.ContainsKey(s))
+            {
+                var actualTime = averagePackageInQueueList[s];
+                averagePackageInQueueList[s] = (actualTime + time);
+            }
+            else
+            {
+                averagePackageInQueueList.Add(s, time);
+            }
+        }
+//--------------------------------------------------------Calculate-------------------------
+        public static float calculateAverageTime()
+        {
+            float sum = 0;
+            float result;
+            foreach (var i in averageTimeinQueueList)
+            {
+                sum = sum + i;
+            }
+            result = sum / NumberOfPackageinQueue;
+            return result;
+        }
+
+        public static float calculateAveragePackageInQueue()
+        {
+            float sum = 0;
+            
+
+            foreach (var e in averagePackageInQueueList)
+            {
+                sum = sum + e.Value * e.Key;
+            }
+            sum = sum / simulationTime;
+
+            return sum;
+        }
+
+        //public static float bussyStart = 0;
+        //public static float bussyStop = 0;
+
+        public static float calculateServerLoad()
+        {
+            serverLoad = serverLoadTime / Statistic.simulationTime;
+            return serverLoad;
+        }
+
+        public static void calculateServerLoadTime(float bussyStart, float bussyStop)
+        {
+            serverLoadTime = serverLoadTime + (bussyStop - bussyStart);
+           
+        }
+
         //-------------------------------------Print----------------------------------------
 
         public static void printStatistic()
@@ -83,6 +156,26 @@ namespace MOPS.Tools
 
         }
 
+        public static void printAverageTimeInQueue()
+        {
+            Console.WriteLine($"\nAverage Time in Queue: {calculateAverageTime()}\n\n");
+
+        }
+
+        public static void printAveragePackageInQueue()
+        {
+            
+            Console.WriteLine($"[AveragePackageInQueue] {calculateAveragePackageInQueue()}\n\n");
+
+        }
+
+
+        public static void printServerLoad()
+        {
+
+            Console.WriteLine($"[Server Load] {calculateServerLoad()}\n\n");
+
+        }
 
     }
 }

@@ -6,11 +6,12 @@ namespace MOPS
 {
     public static class Parameters
     {
-
+        public static String SourceType = "";
         public static int numberOfSources = 0; 
         public static int peakRate = 0; 
         public static int packageSize = 0; 
-        public static int OFFtime = 0; 
+        public static int OFFtime = 0;
+        public static int ONtime = 0;
         public static int numberOfPackages = 0; 
         public static int queueSize = 0; 
         public static int serverBitRate = 0;
@@ -31,6 +32,7 @@ namespace MOPS
             float rate = peakRate;
             timeBetweenPackages = size / rate;
         }
+
 
 
         //---------------------------------------Print Parameters----------------------------------------------------

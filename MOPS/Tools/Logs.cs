@@ -66,6 +66,15 @@ namespace MOPS.Tools
             WriteToFile(log);
         }
 
+        public static void SaveAverageTimeinQueue()
+        {
+            String log;
+
+            log = $"[AVERAGE TIME IN QUEUE]\n{Statistic.averageTimeinQueue}\n\n";
+
+
+            WriteToFile(log);
+        }
 
 
 

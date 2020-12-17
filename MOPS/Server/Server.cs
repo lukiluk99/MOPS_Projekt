@@ -12,6 +12,10 @@ namespace MOPS
         private Package package { get; set; }
         public float bussyTime { get; set; }
 
+        public float bussyStart { set; get; }
+        public float bussyStop { set; get; }
+
+
         public Server()
         {
 
@@ -35,11 +39,15 @@ namespace MOPS
         public void setBussy()
         {
             bussy = true;
+            bussyStart = Statistic.Time;
+              
         }
 
         public void setAvailable()
         {
             bussy = false;
+            bussyStop = Statistic.Time;
+            Statistic.calculateServerLoadTime(bussyStart, bussyStop);
         }
 
         public void setBussyTime(float time)

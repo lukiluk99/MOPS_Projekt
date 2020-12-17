@@ -30,163 +30,103 @@ namespace MOPS
 
 
             Package package = null;
+            float deltaTime = 0;
+            bool flag = false;
             //int i = 0;
-            for(int i = 0; i<eventsList.Count(); i ++)
-            {
+            for (int i = 0; i<eventsList.Count(); i ++)
+            { 
+                Statistic.Time = eventsList[i].time;
+                if (flag == true)
+                { 
+                    deltaTime = eventsList[i].time - eventsList[i - 1].time;
+                    Statistic.addAveragePackageInQueue(queue.Count, deltaTime); 
+                }
+                flag = true;
+                
 
 
                 if (eventsList[i].type == "Coming")
                 {
                     package = eventsList[i].createPackage(i);
                     Statistic.incrementRecivedPackage();
+                    
+
+                    if (server.bussy) // serwer zajety
+                    {
+                        if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
+                        {
+                            package.addToQueueTime = Statistic.Time;
+                            queue.Add(package);
+                            Statistic.incrementPackageInQueue();
+
+                        }
+                        else // nie ma miejsca w kolejce
+                        {
+                            Statistic.incrementLostPackage();
+                        }
+
+                    }
+                    else // serwer wolny
+                    {
+                        if (queue.Count == 0) // kolejka pusta
+                        {
+                            //opoznienie na 0
+                            //+1 do licznika opoznien
+                            server.setBussy();
+                            eventsList.Add(CreateFinishEvent(server, package));
+                            sortList(eventsList);
+                        }
+                        else // Cos jest w kolejce
+                        {
+                            queue.Add(package);
+                            server.setBussy();
+                            eventsList.Add(CreateFinishEvent(server, queue[0]));
+                            sortList(eventsList);
+                            queue[0].getFromQueueTime = Statistic.Time;
+                            Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime-queue[0].addToQueueTime);
+                            queue.RemoveAt(0);
+                        }
+                        
+                    }
+
                 }
                 else
                 {
-                    server.setAvailable();
-                }
-
-                Statistic.Time = package.comingTime;
-                
-                
-                /*
-                if (server.bussyTime <= Statistic.Time && tmp == true) // jesli jest juz czas zakonczyc obsluge
-                {
-                    eventsList.Add(CreateFinishEvent(server, server.getPackage()));
-                }
-                tmp = true;
-                */
-
-
-                if (server.bussy) // serwer zajety
-                {
-                    if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
+                    if (queue.Count != 0)
                     {
-                        package.addToQueueTime = Statistic.Time;
-                        queue.Add(package);
-                        Statistic.incrementPackageInQueue();
-
-                    }
-                    else // nie ma miejsca w kolejce
-                    {
-                        Statistic.incrementLostPackage();
-                    }
-
-                }
-                else // serwer wolny
-                {
-                    if (queue.Count == 0) // kolejka pusta
-                    {
-                        //opoznienie na 0
-                        //+1 do licznika opoznien
-                        server.setBussy();
-                        //server.addPackageToServer(package);
-                        eventsList.Add(CreateFinishEvent(server, package));
-                        sortList(eventsList);
-                        
-                        //server.setBussyTime(Parameters.serverTime + Statistic.Time);
-
-                    }
-                    else // Cos jest w kolejce
-                    {
-                        /*
-                        if (package.ID == server.getPackage().ID)
-                        {
-                            Console.WriteLine("");
-                        }
-                        else
-                        {
-                            queue.Add(package);
-                        }*/
-                        queue.Add(package);
-                        server.setBussy();
-                        //server.setBussyTime(Parameters.serverTime + Statistic.Time);
+                        // oblicz opoznienie
+                        // licznik opoznien
                         eventsList.Add(CreateFinishEvent(server, queue[0]));
                         sortList(eventsList);
-                        //server.addPackageToServer(queue[0]);
                         queue[0].getFromQueueTime = Statistic.Time;
+                        Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime - queue[0].addToQueueTime);
                         queue.RemoveAt(0);
-                    }
-                    PrintEventList(eventsList);
-                }
-                //i++;
-                if (i >= Statistic.packagesInSimulation ) //TODO: uwzglednic paczke ktora akrualnie jest w serwerze 
-                { 
-                   var max = queue.Count();
-                    for (int j = 0; j < max; j++)
-                    {
-                        server.run(queue[j]);
-                        eventsList.Add(CreateFinishEvent(server, queue[j]));
                         
                     }
-                    //running = false;
-                    break;
+                    else
+                    {
+                        server.setAvailable();
+                        
+                    }
                 }
+
                 
             }
             sortList(eventsList);
 
+            Statistic.simulationTime = eventsList[eventsList.Count - 1].time;
+
             Parameters.PrintMainParameters();
             PrintEventList(eventsList);
             Statistic.printStatistic();
+            Statistic.printAveragePackageInQueue();
+            Statistic.printAverageTimeInQueue();
+            Statistic.printServerLoad();
 
             Logs.SaveEventList(eventsList);
             Logs.SaveStatistic();
             Logs.SaveServerParameters();
-
-
-
-
-            /*
-
-            for (int i = 0; i < Statistic.packagesInSimulation; i++)
-            {
-
-                Statistic.incrementRecivedPackage(); 
-               
-            if (server.bussy) // Serwer zajety
-            {
-                    if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
-                    {
-                        Package package = eventsList[i].createPackage(Parameters.packageSize);
-                        package.addToQueueTime = Statistic.Time;
-                        queue.Add(package);
-                        Statistic.incrementPackageInQueue();
-
-                    }
-                    else // nie ma miejsca w kolejce
-                    {
-                        Statistic.incrementLostPackage();
-                    }
-
-            }
-            else // serwer wolny
-            {
-
-                    if (queue.Count == 0) // kolejka pusta
-                    {
-                        //opoznienie na 0
-                        //+1 do licznika opoznien
-                        server.Bussy();
-                        serverBussyTime = Parameters.serverTime + Statistic.Time;
-                        
-                    }
-                    else // Cos jest w kolejce
-                    {
-                        server.Bussy();
-                        queue[0].getFromQueueTime = Statistic.Time;
-                        server.run(queue[0]);
-                        Console.WriteLine("Actual time:" + Statistic.Time);
-                        Event ev = new Event(queue[0].sourceID, "Finish", Statistic.Time);
-                        eventsList.Add(ev);
-                        server.Available();
-                        queue.RemoveAt(0);
-
-                    }
-            }
-
-                
-            }*/
-
+            Logs.SaveAverageTimeinQueue();
 
 
         }
@@ -194,10 +134,7 @@ namespace MOPS
 
         static Event CreateFinishEvent(Server server, Package package )
         {
-            //server.run(package);
-            Console.WriteLine("Actual time:" + Statistic.Time);
             Event ev = new Event(package.sourceID, "Finish", Statistic.Time + Parameters.serverTime);
-            //server.setAvailable();
             return ev;
         }
 
@@ -212,19 +149,72 @@ namespace MOPS
 
         static List<Event> InitializeEventsList(List<Event> events)
         {
-            
-            for (int s = 1; s <= Parameters.numberOfSources; s++)
+            if (Parameters.SourceType == "CBR")
+            {
+                for (int s = 1; s <= Parameters.numberOfSources; s++)
                 {
-                    float tmpTime = 0;
+                    float tmp1 = (float)Math.Round(randomNumber(), 2);
+
                     for (int p = 0; p < Parameters.numberOfPackages; p++)
                     {
-                        Event e = new Event(s, "Coming", tmpTime);
+                        Event e = new Event(s, "Coming", tmp1);
                         events.Add(e);
-                        tmpTime = tmpTime + Parameters.timeBetweenPackages;
+                        tmp1 = tmp1 + Parameters.timeBetweenPackages;
                     }
                 }
+            }
+            else
+            {
+                float onTime = Parameters.ONtime;
+                float offTime = Parameters.OFFtime;
+
+                float tmpPackageinOn = onTime / Parameters.timeBetweenPackages;
+                int PackageinOn = (int)(tmpPackageinOn);
+                int NumberOfOnState = Parameters.numberOfPackages / PackageinOn;
+                int i = 0;
+
+                for (int s = 1; s <= Parameters.numberOfSources; s++)
+                {
+                    float tmp1 = (float)Math.Round(randomNumber(), 2);
+
+                    for (int p = 0; p < Parameters.numberOfPackages; p++)
+                    {
+                        
+                        Event e = new Event(s, "Coming", tmp1);
+                        events.Add(e);
+                        tmp1 = tmp1 + Parameters.timeBetweenPackages;
+                        i++;
+                        if (i == PackageinOn)
+                        {
+                            tmp1 = tmp1 + offTime;
+                            i = 0;
+                        }
+                        
+                    }
+                i = 0;
+                }
+
+            }
                 return events;
         }
+
+        static float randomNumber()
+        {
+        Random rnd = new Random();
+            double rndNumber;
+            if (Parameters.SourceType == "ONOFF")
+            {
+                rndNumber = rnd.NextDouble();
+                rndNumber = rndNumber * (Parameters.ONtime+Parameters.OFFtime);
+            }
+            else // cbr
+            {
+                rndNumber = rnd.NextDouble();
+                rndNumber = rndNumber * Parameters.timeBetweenPackages;
+            }
+            return (float)(rndNumber);
+        }
+
 
         static List<Event> sortList(List<Event> list)
         {
@@ -248,7 +238,7 @@ namespace MOPS
             Console.WriteLine("1-> ON/OFF type");
             Console.WriteLine("2-> CBR type");
             command = Console.ReadLine();
-
+            
             switch (command)
             {
                 case "1":
@@ -259,10 +249,13 @@ namespace MOPS
                     Parameters.packageSize = int.Parse(Console.ReadLine());
                     Console.WriteLine("Off time: ");
                     Parameters.OFFtime = int.Parse(Console.ReadLine());
+                    Console.WriteLine("On time: ");
+                    Parameters.ONtime = int.Parse(Console.ReadLine());
                     Console.WriteLine("Number of package: ");
                     Parameters.numberOfPackages = int.Parse(Console.ReadLine());
                     Statistic.packagesInSimulation = Parameters.numberOfSources * Parameters.numberOfPackages;
                     Logs.SaveONOFFInputParameters();
+                    Parameters.SourceType = "ONOFF";
                     break;
 
                 case "2":
@@ -275,6 +268,7 @@ namespace MOPS
                     Parameters.numberOfPackages = int.Parse(Console.ReadLine());
                     Statistic.packagesInSimulation = Parameters.numberOfSources * Parameters.numberOfPackages;
                     Logs.SaveCBRInputParameters();
+                    Parameters.SourceType = "CBR";
                     break;
 
                 default:
