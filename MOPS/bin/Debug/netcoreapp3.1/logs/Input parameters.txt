@@ -5227,3 +5227,125 @@ Server Bitrate: 10
  Server time: 0,5 
 
 
+Number od sources: 3
+
+ Queue size: 5 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 3 Time: 0Type: Coming
+Source ID: 2 Time: 0Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 3 Time: 0,5Type: Coming
+Source ID: 2 Time: 0,5Type: Coming
+Source ID: 1 Time: 1Type: Finish
+Source ID: 2 Time: 1Type: Coming
+Source ID: 3 Time: 1Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1,5Type: Coming
+Source ID: 3 Time: 1,5Type: Coming
+Source ID: 2 Time: 1,5Type: Coming
+Source ID: 1 Time: 2Type: Finish
+Source ID: 3 Time: 2Type: Coming
+Source ID: 2 Time: 2Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 3 Time: 2,5Type: Coming
+Source ID: 2 Time: 2,5Type: Coming
+Source ID: 1 Time: 2,5Type: Coming
+Source ID: 1 Time: 3Type: Coming
+Source ID: 3 Time: 3Type: Finish
+Source ID: 2 Time: 3Type: Coming
+Source ID: 3 Time: 3Type: Coming
+Source ID: 3 Time: 3,5Type: Coming
+Source ID: 1 Time: 3,5Type: Coming
+Source ID: 2 Time: 3,5Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 2 Time: 4Type: Finish
+Source ID: 2 Time: 4Type: Coming
+Source ID: 3 Time: 4Type: Coming
+Source ID: 3 Time: 4,5Type: Coming
+Source ID: 2 Time: 4,5Type: Coming
+Source ID: 1 Time: 4,5Type: Coming
+Source ID: 1 Time: 5Type: Finish
+Source ID: 2 Time: 6Type: Finish
+Source ID: 2 Time: 7Type: Finish
+Source ID: 1 Time: 8Type: Finish
+Source ID: 1 Time: 9Type: Finish
+Source ID: 1 Time: 10Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 21
+ Received: 27
+ In simulation: 30 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 1 
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 10
+ Time between packages: 0
+ Number of packages: 5
+ Peak rate: 100
+
+
+Number od sources: 2
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 5
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 10
+
+
+Number od sources: 1
+
+ Queue size: 2 
+
+ [INPUT PARAMETERS]
+ Package size: 50
+ Time between packages: 0
+ Number of packages: 10
+ Peak rate: 100
+
+
+Source ID: 1 Time: 0Type: Coming
+Source ID: 1 Time: 0,5Type: Coming
+Source ID: 1 Time: 1Type: Coming
+Source ID: 1 Time: 1,5Type: Coming
+Source ID: 1 Time: 2Type: Coming
+Source ID: 1 Time: 2,5Type: Coming
+Source ID: 1 Time: 3Type: Coming
+Source ID: 1 Time: 3,5Type: Coming
+Source ID: 1 Time: 4Type: Coming
+Source ID: 1 Time: 4,5Type: Coming
+Source ID: 1 Time: 10Type: Finish
+Source ID: 1 Time: 14,5Type: Finish
+Source ID: 1 Time: 24,5Type: Finish
+Source ID: 1 Time: 34,5Type: Finish
+
+[STATISTIC PARAMETERS]
+Lost: 7
+ Received: 10
+ In simulation: 10 
+
+
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 10 
+
+

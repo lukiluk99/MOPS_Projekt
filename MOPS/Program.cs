@@ -28,8 +28,7 @@ namespace MOPS
             sortList(eventsList);
             PrintEventList(eventsList);
 
-            bool tmp = false;
-            bool running = true;
+
             Package package = null;
             //int i = 0;
             for(int i = 0; i<eventsList.Count(); i ++)
@@ -58,8 +57,6 @@ namespace MOPS
                 */
 
 
-
-
                 if (server.bussy) // serwer zajety
                 {
                     if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
@@ -82,8 +79,8 @@ namespace MOPS
                         //opoznienie na 0
                         //+1 do licznika opoznien
                         server.setBussy();
-                        server.addPackageToServer(package);
-                        eventsList.Add(CreateFinishEvent(server, server.getPackage()));
+                        //server.addPackageToServer(package);
+                        eventsList.Add(CreateFinishEvent(server, package));
                         sortList(eventsList);
                         
                         //server.setBussyTime(Parameters.serverTime + Statistic.Time);
@@ -91,7 +88,7 @@ namespace MOPS
                     }
                     else // Cos jest w kolejce
                     {
-
+                        /*
                         if (package.ID == server.getPackage().ID)
                         {
                             Console.WriteLine("");
@@ -99,12 +96,13 @@ namespace MOPS
                         else
                         {
                             queue.Add(package);
-                        }
+                        }*/
+                        queue.Add(package);
                         server.setBussy();
                         //server.setBussyTime(Parameters.serverTime + Statistic.Time);
-                        eventsList.Add(CreateFinishEvent(server, server.getPackage()));
+                        eventsList.Add(CreateFinishEvent(server, queue[0]));
                         sortList(eventsList);
-                        server.addPackageToServer(queue[0]);
+                        //server.addPackageToServer(queue[0]);
                         queue[0].getFromQueueTime = Statistic.Time;
                         queue.RemoveAt(0);
                     }
@@ -120,7 +118,7 @@ namespace MOPS
                         eventsList.Add(CreateFinishEvent(server, queue[j]));
                         
                     }
-                    running = false;
+                    //running = false;
                     break;
                 }
                 

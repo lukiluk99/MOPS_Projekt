@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MOPS.Tools
 {
-   public static class Statistic
+    public static class Statistic
     {
 
 
@@ -19,6 +19,8 @@ namespace MOPS.Tools
         public static int packagesInSimulation = 0;
 
         public static int packageSize = 0;
+
+        
 
         // -------------------------------------Inceremnt--------------------------------
         public static void incrementRecivedPackage()
