@@ -31,21 +31,32 @@ namespace MOPS
             bool tmp = false;
             bool running = true;
             Package package = null;
-            int i = 0;
-            while (running)
+            //int i = 0;
+            for(int i = 0; i<eventsList.Count(); i ++)
             {
 
-                package = eventsList[i].createPackage(i);
-                Statistic.incrementRecivedPackage();
+
+                if (eventsList[i].type == "Coming")
+                {
+                    package = eventsList[i].createPackage(i);
+                    Statistic.incrementRecivedPackage();
+                }
+                else
+                {
+                    server.setAvailable();
+                }
+
                 Statistic.Time = package.comingTime;
                 
                 
-
+                /*
                 if (server.bussyTime <= Statistic.Time && tmp == true) // jesli jest juz czas zakonczyc obsluge
                 {
                     eventsList.Add(CreateFinishEvent(server, server.getPackage()));
                 }
                 tmp = true;
+                */
+
 
 
 
@@ -72,7 +83,10 @@ namespace MOPS
                         //+1 do licznika opoznien
                         server.setBussy();
                         server.addPackageToServer(package);
-                        server.setBussyTime(Parameters.serverTime + Statistic.Time);
+                        eventsList.Add(CreateFinishEvent(server, server.getPackage()));
+                        sortList(eventsList);
+                        
+                        //server.setBussyTime(Parameters.serverTime + Statistic.Time);
 
                     }
                     else // Cos jest w kolejce
@@ -87,16 +101,18 @@ namespace MOPS
                             queue.Add(package);
                         }
                         server.setBussy();
-                        server.setBussyTime(Parameters.serverTime + Statistic.Time);
+                        //server.setBussyTime(Parameters.serverTime + Statistic.Time);
+                        eventsList.Add(CreateFinishEvent(server, server.getPackage()));
+                        sortList(eventsList);
                         server.addPackageToServer(queue[0]);
                         queue[0].getFromQueueTime = Statistic.Time;
                         queue.RemoveAt(0);
                     }
-
+                    PrintEventList(eventsList);
                 }
-                i++;
-                if (i >= Statistic.packagesInSimulation )
-                { // jesli serwer zajety trzeba uwzglednic paczke w nim 
+                //i++;
+                if (i >= Statistic.packagesInSimulation ) //TODO: uwzglednic paczke ktora akrualnie jest w serwerze 
+                { 
                    var max = queue.Count();
                     for (int j = 0; j < max; j++)
                     {
@@ -182,8 +198,8 @@ namespace MOPS
         {
             //server.run(package);
             Console.WriteLine("Actual time:" + Statistic.Time);
-            Event ev = new Event(package.sourceID, "Finish", Statistic.Time);
-            server.setAvailable();
+            Event ev = new Event(package.sourceID, "Finish", Statistic.Time + Parameters.serverTime);
+            //server.setAvailable();
             return ev;
         }
 
