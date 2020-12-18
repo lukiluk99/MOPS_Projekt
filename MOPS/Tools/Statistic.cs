@@ -34,7 +34,10 @@ namespace MOPS.Tools
 
         public static float serverLoadTime = 0;
 
+        public static List<GlobalStatistic> globalList = new List<GlobalStatistic>();
 
+        public static float ProgramTime = 0;
+        public static float percentOfSuccess = 0;
 
         // -------------------------------------Inceremnt--------------------------------
         public static void incrementRecivedPackage()
@@ -96,16 +99,14 @@ namespace MOPS.Tools
 
         public static void RESETSTATISTIC()
         {
-            NumberOfRecivedPackage = 0;
+        NumberOfRecivedPackage = 0;
 
-          NumberOfLostPackage = 0;
+        NumberOfLostPackage = 0;
 
-         NumberOfPackageinQueue = 0;
+        NumberOfPackageinQueue = 0;
 
-         Time = 0;
-
-        packagesInSimulation = 0;
-
+        Time = 0;
+ 
         packageSize = 0;
 
         averageTimeinQueueList = null;
@@ -114,11 +115,11 @@ namespace MOPS.Tools
         averageTimeinQueue = 0;
 
         averagePackageInQueueList = null;
-            averagePackageInQueueList = new Dictionary<int, float>();
+        averagePackageInQueueList = new Dictionary<int, float>();
 
-            averagePackageInQueue = 0;
+        averagePackageInQueue = 0;
 
-         simulationTime = 0;
+        simulationTime = 0;
 
         serverLoad = 0;
 
@@ -147,6 +148,7 @@ namespace MOPS.Tools
                 sum = sum + i;
             }
             result = sum / NumberOfPackageinQueue;
+            averageTimeinQueue = result;
             return result;
         }
 
@@ -160,7 +162,7 @@ namespace MOPS.Tools
                 sum = sum + e.Value * e.Key;
             }
             sum = sum / simulationTime;
-
+            averagePackageInQueue = sum;
             return sum;
         }
 
@@ -205,6 +207,40 @@ namespace MOPS.Tools
         {
 
             Console.WriteLine($"[Server Load] {calculateServerLoad()}\n\n");
+
+        }
+
+        //-----------------------------GlobalList----------------------------
+
+        public static void calculate()
+        {
+            foreach (var e in globalList)
+            {
+                NumberOfRecivedPackage = e.NumberOfRecivedPackage + NumberOfRecivedPackage;
+                NumberOfLostPackage = e.NumberOfLostPackage + NumberOfLostPackage;
+                NumberOfPackageinQueue = e.NumberOfPackageinQueue + NumberOfPackageinQueue;
+                packagesInSimulation = e.packagesInSimulation + packagesInSimulation;
+                averageTimeinQueue = e.averageTimeinQueue + averageTimeinQueue;
+                averagePackageInQueue = e.averagePackageInQueue + averagePackageInQueue;
+                simulationTime = e.simulationTime + simulationTime;
+                serverLoad = e.serverLoad + serverLoad;
+                //ProgramTime = e.programTime + ProgramTime;
+
+            }
+                NumberOfRecivedPackage =  NumberOfRecivedPackage;
+                NumberOfLostPackage = NumberOfLostPackage;
+                NumberOfPackageinQueue =  NumberOfPackageinQueue / 100;
+                packagesInSimulation =  packagesInSimulation / 100;
+                averageTimeinQueue = averageTimeinQueue / 100;
+                averagePackageInQueue = averagePackageInQueue / 100;
+                simulationTime = simulationTime;
+                serverLoad =  serverLoad / 100;
+                percentOfSuccess = (((float)Statistic.NumberOfRecivedPackage - (float)Statistic.NumberOfLostPackage) / (float)(Statistic.NumberOfRecivedPackage) * 100);
+
+
+
+
+
 
         }
 

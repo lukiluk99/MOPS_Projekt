@@ -15,6 +15,7 @@ namespace MOPS
 
             List<Event> eventsList = new List<Event>();
             List<Package> queue = new List<Package>();
+            
 
             UserGUI();
 
@@ -25,7 +26,7 @@ namespace MOPS
             Parameters.CalculateServerTime();
             Parameters.CalculateTimeBetweenPackages();
             Parameters.PrintAllParameters();
-
+            Logs.SaveServerParameters();
             for (int n = 0; n < 100; n++)
             {
 
@@ -132,14 +133,18 @@ namespace MOPS
 
                 Logs.SaveEventList(eventsList);
                 //Logs.SaveStatistic();
-                
-                //Logs.SaveAverageTimeinQueue();
-                Logs.SaveLog();
 
+                //Logs.SaveAverageTimeinQueue();
+                
+                Statistic.globalList.Add(new GlobalStatistic());
                 Statistic.RESETSTATISTIC();
+                
+                //Logs.SaveLog();
+                
                 eventsList = new List<Event>();
             }
-            Logs.SaveServerParameters();
+            Statistic.calculate();
+            Logs.SaveStatistic();
         }
 
 

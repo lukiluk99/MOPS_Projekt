@@ -1,0 +1,60 @@
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 0,4 
+
+
+[STATISTIC PARAMETERS]
+Lost: 162
+Received: 500
+In simulation: 5 
+Packages In Simulation: 5
+Average Time in Queue: 0,4943334
+Average Package In Queue: 0,46896017
+ simulation Time: 283,55997
+Server Load: 0,5248757
+Percent Of Success: 0
+[SERVER PARAMETERS]
+Server Bitrate: 10
+ Server time: 1 
+
+
+[STATISTIC PARAMETERS]
+Lost: 0
+Received: 200
+In simulation: 2 
+Packages In Simulation: 2
+Average Time in Queue: 0
+Average Package In Queue: 0
+ simulation Time: 248,29002
+Server Load: 0,81650484
+Percent Of Success: 100
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 10 
+
+
+[STATISTIC PARAMETERS]
+Lost: 800
+Received: 1000
+In simulation: 10 
+Packages In Simulation: 10
+Average Time in Queue: 9,829398
+Average Package In Queue: 0,48741323
+ simulation Time: 2016,6503
+Server Load: 0,9917795
+Percent Of Success: 0
+[SERVER PARAMETERS]
+Server Bitrate: 5
+ Server time: 4 
+
+
+[STATISTIC PARAMETERS]
+Lost: 700
+Received: 1000
+In simulation: 10 
+Packages In Simulation: 10
+Average Time in Queue: 5,7000055
+Average Package In Queue: 0,9416547
+ simulation Time: 1210,6598
+Server Load: 0,99121565
+Percent Of Success: 30,000002

@@ -38,7 +38,7 @@ namespace MOPS.Tools
             log = $"[SERVER PARAMETERS]\nServer Bitrate: {Parameters.serverBitRate}\n Server time: {Parameters.serverTime} \n\n";
 
 
-            WriteToFile("SourceInfo", log);
+            WriteToFile("Log", log);
         }
 
         public static void SaveEventList(List<Event> list)
@@ -60,11 +60,11 @@ namespace MOPS.Tools
         public static void SaveStatistic()
         {
             String log;
+            
+            log = $"[STATISTIC PARAMETERS]\nLost: {Statistic.NumberOfLostPackage}\nReceived: {Statistic.NumberOfRecivedPackage}\nIn simulation: {Statistic.packagesInSimulation} \nPackages In Simulation: {Statistic.packagesInSimulation}\nAverage Time in Queue: {Statistic.averageTimeinQueue}\nAverage Package In Queue: {Statistic.averagePackageInQueue}\n simulation Time: {Statistic.simulationTime}\nServer Load: {Statistic.serverLoad}\nPercent Of Success: {Statistic.percentOfSuccess}" ;
 
-            log = $"[STATISTIC PARAMETERS]\nLost: {Statistic.NumberOfLostPackage}\n Received: {Statistic.NumberOfRecivedPackage}\n In simulation: {Statistic.packagesInSimulation} \n\n";
 
-
-            WriteToFile("",log);
+            WriteToFile("Log",log);
         }
 
         public static void SaveAverageTimeinQueue()
