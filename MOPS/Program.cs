@@ -20,115 +20,126 @@ namespace MOPS
 
             Server server = new Server(Parameters.serverBitRate);
 
+            
+
             Parameters.CalculateServerTime();
             Parameters.CalculateTimeBetweenPackages();
             Parameters.PrintAllParameters();
 
-            eventsList = InitializeEventsList(eventsList);
-            sortList(eventsList);
-            PrintEventList(eventsList);
+            for (int n = 0; n < 100; n++)
+            {
+
+                eventsList = InitializeEventsList(eventsList);
+                sortList(eventsList);
+                PrintEventList(eventsList);
 
 
-            Package package = null;
-            float deltaTime = 0;
-            bool flag = false;
-            //int i = 0;
-            for (int i = 0; i<eventsList.Count(); i ++)
-            { 
-                Statistic.Time = eventsList[i].time;
-                if (flag == true)
-                { 
-                    deltaTime = eventsList[i].time - eventsList[i - 1].time;
-                    Statistic.addAveragePackageInQueue(queue.Count, deltaTime); 
-                }
-                flag = true;
-                
+                Package package = null;
+                float deltaTime = 0;
+                bool flag = false;
 
-
-                if (eventsList[i].type == "Coming")
+                for (int i = 0; i < eventsList.Count(); i++)
                 {
-                    package = eventsList[i].createPackage(i);
-                    Statistic.incrementRecivedPackage();
-                    
 
-                    if (server.bussy) // serwer zajety
+                    Statistic.Time = eventsList[i].time;
+
+                    if (flag == true)
                     {
-                        if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
-                        {
-                            package.addToQueueTime = Statistic.Time;
-                            queue.Add(package);
-                            Statistic.incrementPackageInQueue();
-
-                        }
-                        else // nie ma miejsca w kolejce
-                        {
-                            Statistic.incrementLostPackage();
-                        }
-
+                        deltaTime = eventsList[i].time - eventsList[i - 1].time;
+                        Statistic.addAveragePackageInQueue(queue.Count, deltaTime);
                     }
-                    else // serwer wolny
-                    {
-                        if (queue.Count == 0) // kolejka pusta
-                        {
-                            //opoznienie na 0
-                            //+1 do licznika opoznien
-                            server.setBussy();
-                            eventsList.Add(CreateFinishEvent(server, package));
-                            sortList(eventsList);
-                        }
-                        else // Cos jest w kolejce
-                        {
-                            queue.Add(package);
-                            server.setBussy();
-                            eventsList.Add(CreateFinishEvent(server, queue[0]));
-                            sortList(eventsList);
-                            queue[0].getFromQueueTime = Statistic.Time;
-                            Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime-queue[0].addToQueueTime);
-                            queue.RemoveAt(0);
-                        }
-                        
-                    }
+                    flag = true;
 
-                }
-                else
-                {
-                    if (queue.Count != 0)
+
+
+                    if (eventsList[i].type == "Coming")
                     {
-                        // oblicz opoznienie
-                        // licznik opoznien
-                        eventsList.Add(CreateFinishEvent(server, queue[0]));
-                        sortList(eventsList);
-                        queue[0].getFromQueueTime = Statistic.Time;
-                        Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime - queue[0].addToQueueTime);
-                        queue.RemoveAt(0);
-                        
+                        package = eventsList[i].createPackage(i);
+                        Statistic.incrementRecivedPackage();
+
+
+                        if (server.bussy) // serwer zajety
+                        {
+                            if (queue.Count() < Parameters.queueSize)  // jest miejsce w kolejce
+                            {
+                                package.addToQueueTime = Statistic.Time;
+                                queue.Add(package);
+                                Statistic.incrementPackageInQueue();
+
+                            }
+                            else // nie ma miejsca w kolejce
+                            {
+                                Statistic.incrementLostPackage();
+                            }
+
+                        }
+                        else // serwer wolny
+                        {
+                            if (queue.Count == 0) // kolejka pusta
+                            {
+                                //opoznienie na 0
+                                //+1 do licznika opoznien
+                                server.setBussy();
+                                eventsList.Add(CreateFinishEvent(server, package));
+                                sortList(eventsList);
+                            }
+                            else // Cos jest w kolejce
+                            {
+                                queue.Add(package);
+                                server.setBussy();
+                                eventsList.Add(CreateFinishEvent(server, queue[0]));
+                                sortList(eventsList);
+                                queue[0].getFromQueueTime = Statistic.Time;
+                                Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime - queue[0].addToQueueTime);
+                                queue.RemoveAt(0);
+                            }
+
+                        }
+
                     }
                     else
                     {
-                        server.setAvailable();
-                        
+                        if (queue.Count != 0)
+                        {
+                            // oblicz opoznienie
+                            // licznik opoznien
+                            eventsList.Add(CreateFinishEvent(server, queue[0]));
+                            sortList(eventsList);
+                            queue[0].getFromQueueTime = Statistic.Time;
+                            Statistic.addAverageTimeinQueue(queue[0].getFromQueueTime - queue[0].addToQueueTime);
+                            queue.RemoveAt(0);
+
+                        }
+                        else
+                        {
+                            server.setAvailable();
+
+                        }
                     }
+
+
                 }
+                sortList(eventsList);
 
+                Statistic.simulationTime = eventsList[eventsList.Count - 1].time;
+
+                Parameters.PrintMainParameters();
+                PrintEventList(eventsList);
+                Statistic.printStatistic();
+                Statistic.printAveragePackageInQueue();
+                Statistic.printAverageTimeInQueue();
+                Statistic.printServerLoad();
+
+                Logs.SaveEventList(eventsList);
+                //Logs.SaveStatistic();
                 
+                //Logs.SaveAverageTimeinQueue();
+                Logs.SaveLog();
+
+                Statistic.RESETSTATISTIC();
+                eventsList = new List<Event>();
             }
-            sortList(eventsList);
-
-            Statistic.simulationTime = eventsList[eventsList.Count - 1].time;
-
-            Parameters.PrintMainParameters();
-            PrintEventList(eventsList);
-            Statistic.printStatistic();
-            Statistic.printAveragePackageInQueue();
-            Statistic.printAverageTimeInQueue();
-            Statistic.printServerLoad();
-
-            Logs.SaveEventList(eventsList);
-            Logs.SaveStatistic();
             Logs.SaveServerParameters();
-            Logs.SaveAverageTimeinQueue();
-
-
         }
 
 

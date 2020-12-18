@@ -18,7 +18,7 @@ namespace MOPS.Tools
 
             log = $"Number od sources: {Parameters.numberOfSources}\n\n Queue size: {Parameters.queueSize} \n\n [INPUT PARAMETERS]\n Package size: {Parameters.packageSize}\n OFF time: {Parameters.OFFtime}\n Number of packages: {Parameters.numberOfPackages}\n Peak rate: {Parameters.peakRate}\n\n";
 
-            WriteToFile(log);
+            WriteToFile("SourceInfo",log);
         }
 
         public static void SaveCBRInputParameters()
@@ -28,7 +28,7 @@ namespace MOPS.Tools
             log = $"Number od sources: {Parameters.numberOfSources}\n\n Queue size: {Parameters.queueSize} \n\n [INPUT PARAMETERS]\n Package size: {Parameters.packageSize}\n Time between packages: {Parameters.timeBetweenPackages}\n Number of packages: {Parameters.numberOfPackages}\n Peak rate: {Parameters.peakRate}\n\n";
 
 
-            WriteToFile(log);
+            WriteToFile("SourceInfo",log);
         }
 
         public static void SaveServerParameters()
@@ -38,7 +38,7 @@ namespace MOPS.Tools
             log = $"[SERVER PARAMETERS]\nServer Bitrate: {Parameters.serverBitRate}\n Server time: {Parameters.serverTime} \n\n";
 
 
-            WriteToFile(log);
+            WriteToFile("SourceInfo", log);
         }
 
         public static void SaveEventList(List<Event> list)
@@ -52,8 +52,9 @@ namespace MOPS.Tools
                log = log + tmp;
                tmp = "";
             }
+            log = log + "\n";
 
-            WriteToFile(log);
+            WriteToFile("EventList",log);
         }
 
         public static void SaveStatistic()
@@ -63,7 +64,7 @@ namespace MOPS.Tools
             log = $"[STATISTIC PARAMETERS]\nLost: {Statistic.NumberOfLostPackage}\n Received: {Statistic.NumberOfRecivedPackage}\n In simulation: {Statistic.packagesInSimulation} \n\n";
 
 
-            WriteToFile(log);
+            WriteToFile("",log);
         }
 
         public static void SaveAverageTimeinQueue()
@@ -73,15 +74,24 @@ namespace MOPS.Tools
             log = $"[AVERAGE TIME IN QUEUE]\n{Statistic.averageTimeinQueue}\n\n";
 
 
-            WriteToFile(log);
+            WriteToFile("",log);
+        }
+
+        public static void SaveLog()
+        {
+            String log;
+
+            log = $"{Statistic.NumberOfLostPackage}";
+
+
+            WriteToFile("Test", log);
         }
 
 
 
-
-        private static void WriteToFile(String log)
+        private static void WriteToFile(String p, String log)
         {
-            string path = $"./logs/Input parameters.txt";
+            string path = $"./logs/{p}.txt";
             if (!File.Exists(path))
             {
                 using (StreamWriter sw = File.CreateText(path))

@@ -94,6 +94,37 @@ namespace MOPS.Tools
             averageTimeinQueueList.Add(element);
         }
 
+        public static void RESETSTATISTIC()
+        {
+            NumberOfRecivedPackage = 0;
+
+          NumberOfLostPackage = 0;
+
+         NumberOfPackageinQueue = 0;
+
+         Time = 0;
+
+        packagesInSimulation = 0;
+
+        packageSize = 0;
+
+        averageTimeinQueueList = null;
+        averageTimeinQueueList = new List<float>();
+
+        averageTimeinQueue = 0;
+
+        averagePackageInQueueList = null;
+            averagePackageInQueueList = new Dictionary<int, float>();
+
+            averagePackageInQueue = 0;
+
+         simulationTime = 0;
+
+        serverLoad = 0;
+
+        serverLoadTime = 0;
+    }
+
         public static void addAveragePackageInQueue(int s, float time)
         {
             if (averagePackageInQueueList.ContainsKey(s))
